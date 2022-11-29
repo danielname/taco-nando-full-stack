@@ -1,9 +1,13 @@
 package com.example.taconandofullstack.models;
 
-public class menu {
+import java.util.List;
+
+public class Menu {
     private short id;
     private String item;
-    private short quantityInStock;
     private float price;
     private boolean special;
+    private float specialPrice;
+    private List<Ingredient> ingredients;
+    private boolean inStock;
 }
